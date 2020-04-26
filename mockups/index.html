@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Dan's Guitar Tabs</title>
+
+  <link rel="stylesheet" href="main.css"/>
+
+  <script type="text/javascript">
+    var SONG_DATA = [
+      {
+        title: "Down Poison",
+        artist: "3 Doors Down",
+        link: "songs/3-Doors-Down---Down-Poison.html"
+      }, {
+        title: "Loser",
+        artist: "3 Doors Down",
+        link: "songs/3-Doors-Down---Loser.html"
+      }, {
+        title: "Duck and Run",
+        artist: "3 Doors Down",
+        link: "songs/3-Doors-Down---Duck-and-Run.html"
+      }, {
+        title: "For Those About to Rock",
+        artist: "AC/DC",
+        link: "songs/AC-DC---For-Those-About-to-Rock.html"
+      }
+    ];
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-header-content">
+      <h1>Dan's Guitar Tabs</h1>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div id="song-list"></div>
+  </div>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!--
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+  -->
+
+  <!-- Load our React components. -->
+  <script src="react-components.js"></script>
+  <script type="text/javascript">
+    const domContainer = document.querySelector('#song-list');
+    ReactDOM.render(React.createElement(SongTable, {songs: SONG_DATA}), domContainer);
+  </script>
+</body>
+</html>
