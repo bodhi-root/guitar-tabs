@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-header {
+  padding: 20px 0;
+  border-top: 5px double black;
+  border-bottom: 5px double black;
+}
+.site-header-content {
+  width: 900px;
+  margin: 0 auto;
+}
+.main-content {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.song-header {
+  margin-bottom: 20px;
+}
+.song-header .song-title {
+  font-size: 200%
+}
+.song-header .song-artist {
+
+}
+
+/* ### Song Index ########################################################## */
+
+.song-table th {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+.song-table td {
+  padding: 4px 12px 4px 0;
+}

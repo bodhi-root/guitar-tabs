@@ -32,23 +32,25 @@ writeIndex = function() {
   return function(files, metalsmith, done) {
     setImmediate(done);
 
-    var listItems = [];
+    var songData = [];
     Object.keys(files).forEach(function(file) {
-
       var data = files[file];
-      var html = '<tr><td>' + data.artist + '</td><td><a href="' + file + '">' + data.title + '</a></td></tr>';
-      listItems.push(html);
+      var info = {
+        title: data.title,
+        artist: data.artist,
+        link: file,
+        tuning: data.tuning,
+        rating: data.rating,
+        difficulty: data.difficulty
+      };
+      songData.push(info);
     });
-
-    var html = '<table>' +
-      '<thead><tr><th>Artist</th><th>Title</th></tr></thead>' +
-      '<tbody>' + listItems.join('\n') + '</tbody>' +
-      '</table>';
 
     files["index.html"] = {
       title: "Song Index",
       layout: "song_index.html",
-      contents: Buffer.from(html)
+      songData: JSON.stringify(songData),
+      contents: Buffer.from("This page does not have content")
     }
 
   }

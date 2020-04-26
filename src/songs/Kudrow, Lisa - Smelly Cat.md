@@ -5,6 +5,7 @@ artist: Lisa Kudrow
 
 from: http://www.angelfire.com/f14/guima/chord.html
 
+```
 E           A         D    A         E
 Smelly Cat Smelly Cat What are they feeding you
 Smelly Cat Smelly Cat It's not your fault
@@ -47,3 +48,4 @@ Am
 Crapping on my heart
 Am
 La, la, la, la, la, la . . .
+```

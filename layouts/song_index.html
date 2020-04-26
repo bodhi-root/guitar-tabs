@@ -1,20 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Song Index</title>
+  <meta charset="UTF-8"/>
+  <title>{{ siteTitle }}</title>
   <meta name="description" content="{{ siteDescription }}">
-  <style type="text/css">
-    th {
-      text-align: left;
-    }
-  </style>
+  
+  <link rel="stylesheet" href="css/main.css"/>
+
+  <script type="text/javascript">
+    var SONG_DATA = {{{ songData }}};
+  </script>
 </head>
 <body>
-  
-  <h1>Song Index</h1>
-  
-  {{{ contents }}}
-  
+
+  <header class="site-header">
+    <div class="site-header-content">
+      <h1>{{ siteTitle }}</h1>
+    </div>
+  </header>
+
+  <div class="main-content">
+    <div id="song-list"></div>
+  </div>
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <!--
+  <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
+  -->
+
+  <!-- Load our React components. -->
+  <script src="js/react-components.js"></script>
+  <script type="text/javascript">
+    const domContainer = document.querySelector('#song-list');
+    ReactDOM.render(React.createElement(SongTable, {songs: SONG_DATA}), domContainer);
+  </script>
 </body>
 </html>

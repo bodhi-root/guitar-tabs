@@ -4,19 +4,28 @@
   <meta charset="UTF-8" />
   <title>{{ siteTitle }}</title>
   <meta name="description" content="{{ siteDescription }}">
+
+  <link rel="stylesheet" href="../css/main.css"/>
+
 </head>
 <body>
-  
-  <header>
-    <p>
-      <a href="/">Home</a>
-    </p>
+
+  <header class="site-header">
+    <div class="site-header-content">
+      <h1>{{ siteTitle }}</h1>
+    </div>
   </header>
-  
-  <h1>{{ title }}</h1>
-  <p>{{ artist }}</p>
-  
-  {{{ contents }}}
-  
+
+  <div class="main-content">
+
+    <header class="song-header">
+      <div class="song-title">{{ title }}</div>
+      <div class="song-artist">{{ artist }}</div>
+    </header>
+
+    {{{ contents }}}
+
+  </div>
+
 </body>
 </html>
