@@ -4,6 +4,29 @@
 
 This website is an attempt to collect guitar tabs and songs that I like to play in a way that they can easily be used by me and perhaps even published for others.  I like the idea of building a tool that others could use to easily publish their own guitar songbooks as well.
 
+Songs are stored as Markdown (".md") files in the "src/songs" folder.  The basic song looks like:
+
+````
+---
+title: Metallica
+artist: One
+---
+
+```
+guitar tab
+```
+````
+
+The "triple backticks" are used to mark the guitar tab up like code so that it uses a monospace font to render ASCII tablature correctly.
+
+A static website is generated using Metalsmith.  This can be created by running:
+
+```
+node build.js
+```
+
+This will output the static site files to a folder named "build".
+
 ## History
 
 I've collected these tabs for probably 20 years.  I've put them in text files, word docs, and at one point even published them in a Confluence wiki.  The wiki was great.  It was easy to browse and search.  However, it was deleted when my billing address changed, and I was too upset with the company to stand up another one.  I decided instead to try a static generated website that could would allow me to store the guitar music in basically a "raw" form, but add a nice layout and and publishing mechanism on top of that.  This would also let me store the guitar music in source control so I don't lose it (like I almost did in 2019).
@@ -19,27 +42,27 @@ I noticed in my files that at one point I even created XML files that looked lik
   </info>
 
   <part name="intro" id="intro"/>
-  
+
   <verse>
-There's another world inside of me that you may never see 
-There's secrets in this life that I can't hide 
-Well somewhere in this darkness there's a light that I can't find 
-Well maybe it's too far away, or maybe I'm just blind 
-     Maybe I'm just blind 
+There's another world inside of me that you may never see
+There's secrets in this life that I can't hide
+Well somewhere in this darkness there's a light that I can't find
+Well maybe it's too far away, or maybe I'm just blind
+     Maybe I'm just blind
   </verse>
   <part name="post verse"/>
-  
+
   <chorus id="chorus">
-So hold me when I'm here - Right me when I'm wrong 
-Hold me when I'm scared - And love me when I'm gone 
-Everything I am - And everything in me 
-Wants to be the one - You wanted me to be 
-I'll never let you down - Even if I could 
-I'd give up everything - If only for your good 
-So hold me when I'm here - Right me when I'm wrong 
-Hold me when I'm scared - You won't always be there 
-So love me when I'm gone 
-     Love me when I'm gone 
+So hold me when I'm here - Right me when I'm wrong
+Hold me when I'm scared - And love me when I'm gone
+Everything I am - And everything in me
+Wants to be the one - You wanted me to be
+I'll never let you down - Even if I could
+I'd give up everything - If only for your good
+So hold me when I'm here - Right me when I'm wrong
+Hold me when I'm scared - You won't always be there
+So love me when I'm gone
+     Love me when I'm gone
   </chorus>
 ```
 
@@ -57,7 +80,7 @@ Breathe in right away,
 Nothing seems to fill this place
 I need this every time,
 Take your lies get off my case
-Someday I will find 
+Someday I will find
 A love that flows through me like this
 This will fall away,
 This will fall away
