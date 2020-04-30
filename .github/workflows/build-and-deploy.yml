@@ -1,0 +1,72 @@
+on:
+  # Trigger workflow on push or pull request, but
+  # only for master branch.
+  push:
+    branches:
+      - master
+
+  pull_request:
+    branches:
+      - master
+
+name: Build and Deploy
+jobs:
+
+  # Build website
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    
+    - name: Checkout Code
+      uses: actions/checkout@master
+      with:
+        fetch-depth: 1
+    
+    - name: Install Dependencies
+      run: npm ci
+      
+    - name: Build
+      run: npm run build
+      env:
+        CI: true
+        
+    - name: Save Build Artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: site-artifact
+        path: build
+
+  # Deploy to Github Pages environment
+  deploy-production:
+    name: Deploy to Production
+    needs: build
+    runs-on: ubuntu-latest
+    
+    # the line below restricts this to master branch (but we already did that)
+    #if: github.ref == 'refs/heads/master' && github.event_name != 'pull_request'
+    
+    steps:
+    
+    - name: Checkout Code
+      uses: actions/checkout@master
+      with:
+        fetch-depth: 1
+        
+    - name: Download Website Artifact
+      uses: actions/download-artifact@v1
+      with:
+        name: site-artifact
+        path: build
+        
+    - name: Deploy to Github Pages
+      uses: ./.github/actions/github-pages/
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        args: build
+        
+    - name: Trigger a Pages Update
+      run: |
+        curl -sS -X POST -H "Authorization: Bearer ${{ secrets.GITHUB_PAGES_DEPLOY_TOKEN }}" \
+        https://api.github.com/repos/${{ github.repository }}/pages/builds \

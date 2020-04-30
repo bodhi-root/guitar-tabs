@@ -102,11 +102,11 @@ Metalsmith(__dirname)
     engine: 'handlebars',
     default: 'song.html'
   }))
-  .use(writemetadata({    // write the JS object for each file into .json
-    pattern: ['**/*'],
-    ignorekeys: ['next', 'previous'],
-    bufferencoding: 'utf8'
-  }))
+  //.use(writemetadata({    // write the JS object for each file into .json
+  //  pattern: ['**/*'],
+  //  ignorekeys: ['next', 'previous'],
+  //  bufferencoding: 'utf8'
+  //}))
   .use(assets({
     source: './public',
     destination: '.'
