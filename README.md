@@ -1,5 +1,7 @@
 # Guitar Website
 
+https://bodhi-root.github.io/guitar-tabs/
+
 ## Overview
 
 This website is an attempt to collect guitar tabs and songs that I like to play in a way that they can easily be used by me and perhaps even published for others.  I like the idea of building a tool that others could use to easily publish their own guitar songbooks as well.
@@ -13,19 +15,25 @@ artist: One
 ---
 
 ```
-guitar tab
+... guitar tab ...
 ```
 ````
 
 The "triple backticks" are used to mark the guitar tab up like code so that it uses a monospace font to render ASCII tablature correctly.
 
-A static website is generated using Metalsmith.  This can be created by running:
+## Static Website Generation (with Metalsmith)
+
+A static website can be generated from these files using Metalsmith.  This can be created by running:
 
 ```
-node build.js
+npm run build
 ```
 
 This will output the static site files to a folder named "build".
+
+## Automatic Website Deploy (with GitHub Actions)
+
+I've also setup a GitHub Actions workflow that will automatically build the website and deploy it to GitHub pages when it is checked into GitHub.  Massive "Thank You!" to [this website](https://alexwilson.tech/blog/2020/01/15/deploying-static-sites-with-github-actions/) for walking me through how to do that.
 
 ## History
 
