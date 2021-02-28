@@ -1,5 +1,5 @@
 ---
-title: God Gave ROck n Roll to You
+title: God Gave Rock n Roll to You
 artist: Kiss
 ---
 
