@@ -1,0 +1,109 @@
+---
+title: Mary Jane's Last Dance
+artist: Tom Petty
+---
+
+```
+[Intro]
+Am    G    Dsus2    Am   (x4)
+
+[Verse]
+Am                G
+She grew up in an Indiana town
+      Dsus2                     Am
+Had a good-lookin' mama who never was around
+       Am                    G
+But she grew up tall and she grew up right
+          Dsus2                    Am
+With them Indiana boys on them Indiana nights
+
+Am    G    Dsus2    Am   (x2) w/harmonica
+
+[Verse 2]
+Am                                 G
+Well she moved down here at the age of eighteen
+            Dsus2                             Am
+She blew the boys away, was more than they'd seen
+Am                                G
+I was introduced and we both started groovin'
+            Dsus2                               Am
+She said, "I dig you baby but I got to keep movin'"
+
+Am      G    Dsus2    Am
+...on, keep movin' on
+Am      G    Dsus2    Am
+
+[Chorus]
+Em7
+Last dance with Mary Jane
+Em7                         A
+One more time to kill the pain
+Em7
+I feel summer creepin' in and I'm
+Em7                   A      G
+Tired of this town again
+
+Am    G    Dsus2    Am   (x2) w/harmonica
+
+[Verse 3]
+Am                    G
+Well I don't know, but I've been told
+         Dsus2                     Am
+You never slow down, you never grow old
+Am                  G
+I'm tired of screwing up, I'm tired of going down
+Dsus2                        Am
+Tired of myself, tired of this town
+Am                   G
+Oh my my, oh hell yes
+         Dsus2              Am
+Honey put on that party dress
+Am                        G
+Buy me a drink, sing me a song,
+Dsus2                           Am
+Take me as I come 'cause I can't stay long
+
+[Chorus]
+Em7
+Last dance with Mary Jane
+Em7                         A
+One more time to kill the pain
+Em7
+I feel summer creepin' in and I'm
+Em7                  A      G
+Tired of this town again
+
+[Solo]
+Am    G    Dsus2    Am   (x4)
+
+[Verse 4]
+Am                   G
+There's pigeons down on Market Square
+         Dsus2                     Am
+She's standin' in her underwear
+Am                  G
+Lookin' down from a hotel room
+Dsus2                               Am
+Nightfall will be comin' soon
+Am                   G
+Oh my my, oh hell yes
+      Dsus2              Am
+You got to put on that party dress
+Am                        G
+It was too cold to cry when I woke up alone
+Dsus2                            Am
+I hit my last number and walked to the road
+
+[Chorus]
+Em7
+Last dance with Mary Jane
+Em7                         A
+One more time to kill the pain
+Em7
+I feel summer creepin' in and I'm
+Em7                  A      G
+Tired of this town again
+
+Am    G    Dsus2   Am
+(Play over and over till out, with solo guitar and harmonica)
+```
