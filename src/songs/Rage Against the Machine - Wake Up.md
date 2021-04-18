@@ -1,6 +1,7 @@
 ---
 title: Wake Up
 artist: Rage Against the Machine
+tuning: Drop D
 ---
 
 ```
@@ -59,9 +60,6 @@ What was the price on his head?
 SOLO
 
 ------------------------------------------------------
-
-TUNING: DROP-D
-
 
 INTRO
 
