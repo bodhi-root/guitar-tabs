@@ -5,11 +5,45 @@ artist: Jimi Hendrix
 
 (From the 1969 Album THE JIMI HENDRIX EXPERIENCE SMASH HITS)
 
+## Lyrics
+
+[Verse 1]
+"There must be some way out of here"
+Said the joker to the thief
+"There's too much confusion
+I can't get no relief
+Businessmen, they drink my wine
+Plowmen dig my earth
+None of them along the line
+Know what any of it is worth"
+
+[Verse 2]
+"No reason to get excited"
+The thief, he kindly spoke
+"There are many here among us
+Who feel that life is but a joke
+But you and I, we've been through that
+And this is not our fate
+So let us not talk falsely now
+The hour is getting late"
+
+[Verse 3]
+All along the watchtower
+Princes kept the view
+While all the women came and went
+Barefoot servants too
+Outside, in the distance
+A wildcat did growl
+Two riders were approaching
+The wind began to howl
+
 ## Tuning
 
 * (Gtr 1) (D# G# C# F# A# D#) - 'Acoustic Guitar'
 * (Gtr 2) (D# G# C# F# A# D#) - 'Guitar 1'
 * (Gtr 3) (D# G# C# F# A# D#) - '12-string Elec.'
+
+## Tab
 
 Moderately Q-112
 

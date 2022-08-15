@@ -1,6 +1,7 @@
 ---
 title: Comfortably Numb
 artist: Pink Floyd
+tempo: 127 bpm
 ---
 
 ## Notes

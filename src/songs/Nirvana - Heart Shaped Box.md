@@ -23,6 +23,7 @@ CHORUS:
      Your advice
      Your advice
 
+<VERSE>
 Meat-eating orchids forgive no one just yet
 Cut myself on angel's hair and baby's breath
 Broken hymen of your highness I'm left black
@@ -31,6 +32,7 @@ Throw down your umbilical noose so I can climb right back
 CHORUS
 SOLO
 
+<VERSE>
 She eyes me like a Pisces when I am weak
 I've been locked inside your Heart-Shaped box for a week
 I was drawn into your magnet tar pit trap

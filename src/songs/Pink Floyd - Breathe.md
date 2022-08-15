@@ -3,6 +3,24 @@ title: Breathe
 artist: Pink Floyd
 ---
 
+## Chords
+
+```
+Em(add9)  |022002|
+A         |x02220|
+Asus4     |x02230|
+A7sus4    |x02233|
+A7        |x02020|
+Cmaj7     |x32000|
+Bm7       |x24232|
+Fmaj7     |xx3210|
+G         |320003|
+D7#9      |x5456x|
+B7b9      |x2121x|
+```
+
+## Lyrics
+
 ```
 VERSE 1:
 

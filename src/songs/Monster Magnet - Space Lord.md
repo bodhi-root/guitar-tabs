@@ -4,7 +4,7 @@ artist: Monster Magnet
 ---
 
 ```
-E                                A (for whole verse)
+E                              A         E                 A
 I've been stuffed in your pocket for the last hundred days
 When I don't get my bath I take it out on the slaves
 So grease up your baby for the ball on the hill
@@ -16,7 +16,7 @@ And sing... Space Lord Mother
 (back to the E, A rythmic strumming)
 Huh! Uh huh
 
-E                          A (same style as first verse)
+E                        A          E               A
 There's a car in the field now in a column of flame
 With two doors to choose but only one bears your name
 You've been drinking my blood well I've been licking your wounds
@@ -25,16 +25,14 @@ I'll shave off the pitch now in the scope of your tune
 A (same as last time)
 You'll sing... Space Lord Mother
 
-Emaj               D             A7
+Emaj            D A7       E          D  A7
 I left my throne a million miles away
-I drink from your tit
-I sing your blues every day
-Now give me the strength
-To split the world in two yeah
+I drink from your tit. I sing your blues every day
+Now give me the strength To split the world in two yeah
 I ate all the rest and now I've gotta eat you
 
 (back to the E, A verse strumming)
-Well I sing
+Well I sing...
 
 (E, A strumming)
 Built in my nightmares and using my name
@@ -43,7 +41,8 @@ I'm squeezed out in hump drive and drownin' in love
 Encompass them all to a position above
 
 A (same as before)
-Well I sing... Space Lord Mother
+Well I sing "Ohhhhh..." Space Lord Mother
+("yeah", "uh huh")
 
 E                D               A7
 (remember to leave out the high E on the D)
@@ -56,14 +55,17 @@ I ate all the rest and now I've gotta eat you
 
 (continue with chorus chords)
 Well I sing... Space Lord Mother
+Well I sing... Space Lord Mother
+Well I sing... Space Lord Mother
+Well I sing... Space Lord Mother
 
 Transition here to an E > C, listen to the song for timing
 
-E                             C
-I lost my soul when I fell to earth
-My planets called me to the void of my birth
-The time has come for me to kill this game
-Now open wide and say my name
+E             C                    
+   I lost my soul when I fell to earth
+   My planets called me to the void of my birth
+   The time has come for me to kill this game
+   Now open wide and say my name
 
 (back to the chorus chords, repeat as much as you like)
 Space Lord Mother

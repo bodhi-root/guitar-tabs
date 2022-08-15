@@ -4,6 +4,10 @@ artist: Tom Petty
 ---
 
 ```
+Em7 |022030|
+```
+
+```
 [Intro]
 Am    G    Dsus2    Am   (x4)
 

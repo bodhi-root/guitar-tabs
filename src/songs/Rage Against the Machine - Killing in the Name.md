@@ -141,8 +141,8 @@ INTERLUDE  (D minor scale, strum each chord like crazy for each "F you")
 
 ENDING
 
-|-7--|               |-------6-6-6~~~-|
-|-x--| (strum like   |-0-0-0-6-6-6~~~-|
+|-7--|               |-------8-8-8~~~-|
+|-x--| (strum like   |-0-0-0-8-8-8~~~-|
 |-5--|  crazy,       |-0-0-0-6-6-6~~~-|
 |-0--|  and then..)  |-0-0-0----------|
 
