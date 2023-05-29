@@ -8,7 +8,7 @@ INTRO x4
 
 <VERSE, played with indicated chords>
 
-Em9
+     Em9
 Hey, you - Out there in the cold, getting lonely, getting old,
         Bm
 Can you feel me?
@@ -22,30 +22,46 @@ Bm   	           C          Em
     Don't give in without a fight.
 
 <VERSE>
+Em9
 Hey, you - Out there on your own, sitting naked by the phone,
+          Bm
 Would you touch me?
+     Em9
 Hey, you - With your ear against the wall, waiting for someone to call out,
+          Bm         Dsus2
 Would you touch me?
+                                          G D C
 Hey, you - Would you help me to carry the stone?
+Bm                C            Em
   Open your heart, I'm coming home.
 
 SOLO
 
 <BRIDGE>
+C          D    G D C
 But it was only fantasy.
+    C            D        G   D   C
 The wall was too high, as you can see.
+   C             D              G   D     C
 No matter how he tried he could not break free.
+        D                  Em
 And the worms ate into his brain.
 
 INTRO x4                  
 
 <VERSE>
+     Em9
 Hey, you - Out there on the road, always doing what you're told,
+        Bm
 Can you help me?
+    Em9
 Hey you, - Out beyond the wall, breaking bottles in the hall,
+        Bm        Dsus2
 Can you help me?
        (distorted guitar: B5  C5  C#5  D5)
+                                            G  D  C
 Hey you, - Don't tell me there's no hope at all  
+Bm                   C          Em
   Together we stand, divided we fall.
 
 
