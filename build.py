@@ -155,6 +155,8 @@ def create_index(files):
 
         song_data_list.append(song_data)
 
+    song_data_list.sort(key=lambda obj: obj["link"])
+
     metadata = {
         "title": "Song Index",
         "template": "song_index.html",
