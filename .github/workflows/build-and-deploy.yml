@@ -1,6 +1,7 @@
 # Trigger workflow on push or pull request, but
 # only for master branch.
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
