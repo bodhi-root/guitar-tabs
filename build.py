@@ -183,7 +183,7 @@ jinja_env = Environment(
 )
 
 global_vars = {
-    "siteTitle": "Dan's Guitar Tabs"
+    "siteTitle": "Dan's Guitar Tabs (v2)"
 }
 
 files = Collection()

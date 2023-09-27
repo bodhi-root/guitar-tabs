@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - jinja
   pull_request:
     branches:
       - master
